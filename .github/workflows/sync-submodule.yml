@@ -1,0 +1,23 @@
+name: Sync Submodule
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-parent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: user/main-repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+
+      - name: Update submodule
+        run: |
+          git submodule update --remote https://github.com/ruzgara/obsidian-site.git
+          git add path/to/submodule
+          git commit -m "Auto-update submodule"
+          git push origin main
+
