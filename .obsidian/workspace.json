@@ -35,23 +35,9 @@
               "icon": "lucide-file",
               "title": "Week 2 - Sorting"
             }
-          },
-          {
-            "id": "7113f4edd4ee66bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hello.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hello"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hello.md",
+                "file": "_index.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Hello"
+              "title": "Backlinks for _index"
             }
           },
           {
@@ -185,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hello.md",
+                "file": "_index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hello"
+              "title": "Outline of _index"
             }
           }
         ],
@@ -215,10 +201,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "7113f4edd4ee66bd",
+  "active": "3a75a9c6159a7b69",
   "lastOpenFiles": [
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
-    "Hello.md",
+    "_index.md",
     "Templates/Default.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/test.md",
