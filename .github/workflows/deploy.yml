@@ -1,0 +1,17 @@
+name: Remote Dispatch to Quartz
+
+on:
+  push:
+    branches: [ master ] # Change to main if that's your branch name
+
+jobs:
+  ping-quartz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Quartz Build
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github.v3+json" \
+          -H "Authorization: token ${{ secrets.PAT_TOKEN }}" \
+          https://api.github.com/repos/ruzgara/obsidian-site/dispatches \
+          -d '{"event_type": "submodule_updated"}'
