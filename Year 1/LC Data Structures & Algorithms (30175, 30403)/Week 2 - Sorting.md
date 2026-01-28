@@ -1,6 +1,6 @@
 ---
 date: 2026-01-27
-updated: 2026-01-27T17:06:00
+updated: 2026-01-28T22:06:00
 tags:
   - lessons/lecture
 ---
