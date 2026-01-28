@@ -14,7 +14,7 @@
   "templates": true,
   "note-composer": true,
   "command-palette": true,
-  "slash-command": false,
+  "slash-command": true,
   "editor-status": true,
   "bookmarks": true,
   "markdown-importer": false,
@@ -26,8 +26,8 @@
   "audio-recorder": false,
   "workspaces": false,
   "file-recovery": true,
-  "publish": false,
-  "sync": true,
+  "publish": true,
+  "sync": false,
   "bases": true,
   "webviewer": false
 }
