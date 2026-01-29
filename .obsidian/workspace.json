@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6c179fec80d7c228",
+        "id": "e17ca7b782883e47",
         "type": "tabs",
         "children": [
           {
-            "id": "8de8b19a6cc8ed1f",
+            "id": "ff9a0a60ec55065f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -181,17 +185,19 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8de8b19a6cc8ed1f",
+  "active": "ff9a0a60ec55065f",
   "lastOpenFiles": [
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+    "Untitled 1.base",
     "index.md",
+    "Untitled.base",
+    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 1/01-efficiency-and-complexity.pdf",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
     "Year 1.md",
     "Index.md",
     "Templates/Default.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/test.md",
     "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 2/02-sorting.pdf",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 1/01-efficiency-and-complexity.pdf",
     "{{pdfname}}.md",
     "Templates",
     "2026-01-27.md",
@@ -201,8 +207,6 @@
     "Lectures/LC Data Structures & Algorithms (30175, 30403)",
     "Lectures/33283 LC Integrated Design Project",
     "Lectures/28607 LC Introduction to Computing for Engineers",
-    "Lectures",
-    "02-sorting.pdf",
     "Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
     "'/Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
     "Welcome.md"
