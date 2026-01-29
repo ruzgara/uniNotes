@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e17ca7b782883e47",
+        "id": "a32c4b92922fd61f",
         "type": "tabs",
         "children": [
           {
-            "id": "ff9a0a60ec55065f",
+            "id": "92c355e3f366a373",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Week 2 - Supervised learning"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f50713493ba4d0ea",
@@ -185,28 +186,83 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ff9a0a60ec55065f",
+  "floating": {
+    "id": "dd6ce2f5f181adf6",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9181c4b6206b2c16",
+        "type": "window",
+        "children": [
+          {
+            "id": "0122e4ffaad9addd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fac99c0d9e310e84",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.1_preview.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "W2.1_preview"
+                }
+              },
+              {
+                "id": "cfec65d319d7bb75",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.2_preview.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "W2.2_preview"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1,
+        "y": 35,
+        "width": 757,
+        "height": 887,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "92c355e3f366a373",
   "lastOpenFiles": [
-    "Untitled 1.base",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.1_preview.pdf",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
+    "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning.md",
+    "Pasted image 20260129115219.png",
+    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.2_preview.pdf",
+    "Supervised Learning.md",
+    "Lectures/Untitled",
+    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2",
+    "Year 1/33283 LC Integrated Design Project/Week 6 - Design.md",
+    "Lectures/LC Artificial Intelligence 1 (34238, 34237)",
+    "Year 1/28607 LC Introduction to Computing for Engineers/Week 1 - Introduction to C.md",
+    "Year 1/LC Artificial Intelligence 1 (34238, 34237)",
+    "Year 1/33283 LC Integrated Design Project/Week 2 - SDGs.md",
     "index.md",
+    "Untitled 1.base",
     "Untitled.base",
     "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 1/01-efficiency-and-complexity.pdf",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
     "Year 1.md",
     "Index.md",
     "Templates/Default.md",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/test.md",
     "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 2/02-sorting.pdf",
     "{{pdfname}}.md",
-    "Templates",
     "2026-01-27.md",
     "Year 1/28607 LC Introduction to Computing for Engineers/Cheat Sheet.md",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 2",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 1",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)",
-    "Lectures/33283 LC Integrated Design Project",
-    "Lectures/28607 LC Introduction to Computing for Engineers",
     "Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
     "'/Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
     "Welcome.md"
