@@ -35,7 +35,7 @@ In some special cases, the nature of the data allows for sorting without a compa
 - Bubble sort does multiple passes over an array of items, swapping neighbouring items that are out of order as it goes.
 - Each pass guarantees that at least one extra element ends up in its correct ordered location at the start of the array, so consecutive passes shorten to work only on the unsorted part of the array, until the last pass only sorts the remaining 2 elements at the end.
 
-> [!example]+ Pseudocode
+> [!abstract] Pseudocode
 > ```pseudo
 > \begin{algorithm}
 > \caption{Bubble Sort}
@@ -65,7 +65,11 @@ $$(n-1) \times (n-1) = n^2 - 2n +1 = O(n^2)$$
 - It does this by partitioning the array into a sorted part at the front, and an unsorted part at the end.
 - In each pass, it finds the smallest element in the unsorted part, and swaps it with the first element of the unsorted part of the array. Then it moves the split position between the sorted and unsorted parts of the array by one cell.
 
-> [!example] Pseudocode
+> [!example]- Example of a Selection Sort run
+> ![[02-sorting.pdf#page=9&rect=31,7,153,241|02-sorting, p.8]]
+
+
+> [!abstract] Pseudocode
 >  ```pseudo
 > \begin{algorithm}
 > \caption{Selection Sort}
@@ -99,3 +103,87 @@ $$
 \end{aligned}
 $$
 - Hence, the worst case complexity is: $O(n^2)$
+## Merge Sort
+Merge Sort uses the *Divide and Conquer* strategy.
+
+> [!info] *Divide and Conquer*
+> This strategy recursively splits the problem into smaller sub problems until there are only very simple problems left and solved. Then the solutions are put together to form a solution to the big problem
+> > [!abstract] High Level Pseudocode 
+> > ```pseudo
+> > \begin{algorithm}
+> > \caption{DivideAndConquer}
+> > \begin{algorithmic}
+> > 	\Function{DivideAndConquer}{$I$}
+> > 		\If{$I$ is a base case}
+> > 		    \State Process $I$
+> > 			\Return
+> > 	    \Else
+> > 		    \State Divide the input into two smaller inputs $I_0$ and $I_1$
+> > 		    \State $O_0 \gets$ \Call{DivideAndConquer}{$I_0$}
+> > 		    \State $O_1 \gets$ \Call{DivideAndConquer}{$I_1$}
+> > 		    \State Join $O_0$ and $O_1$ into $O$
+> > 		    \Return $O$
+> > 	    \EndIf
+> > 	\EndFunction
+> > \end{algorithmic}
+> > \end{algorithm}
+> > ```
+
+It works by:
+1. Recursively split the problem into smaller sub-problems until all arrays contain only one element.
+	- This is trivial
+2. Then **merge** the sorted pieces into bigger and bigger sorted sequences until the full array is sorted
+
+> [!abstract]+ Merge Sort pseudocode
+> ```pseudo
+> 	\begin{algorithm}
+> 	\caption{Merge Sort}
+> 	\begin{algorithmic}
+> 		\Function{MergeSort}{Array $a$}
+> 			\If{Array $a$ has length $0$}
+> 				\Return $a$
+> 			\Else
+> 				\State $I_0 \gets$ first half of $a$
+> 				\State $I_1 \gets$ second half of $a$
+> 				\State $O_0 \gets$ \Call{MergeSort}{$I_0$}
+> 				\State $O_1 \gets$ \Call{MergeSort}{$I_1$}
+> 				\State \Call{Merge}{$O_0, O_1$}
+>             \EndIf
+>         \EndFunction
+> 	\end{algorithmic}
+> 	\end{algorithm}
+> ```
+
+In order to merge two sorted arrays, the following algorithm is used:
+1. In $i$ and $j$ store the current positions in arrays $a$ and $b$. Allocate temporary array $tmp$ for the result.
+2. If $a[i] \leq b[j]$, copy $a[i]$ to $tmp[i+j]$ and increment $i$. Otherwise copy $b[j]$ to $tmp[i+j]$ and increment $j$.
+3. Repeat *2.* until $i$ or $j$ reaches the end of $a$ or $b$ respectively, and then copy the rest from the other array.
+
+> [!abstract] Array Merging pseudocode
+> ```pseudo
+> 	\begin{algorithm}
+> 	\caption{Sorted Array Merging}
+> 	\begin{algorithmic}
+> 		\Function{Merge}{Array $a$, Array $b$}
+> 			\State $i,j \gets 0$
+> 			\State tmp $\gets \empty$
+> 			\While{$i < |a|$ \and $j < |b|$}
+> 				\If{$a[i] \leq b[j]$}
+> 					\State tmp$[i+j] \gets a[i]$
+> 					\State $i++$
+> 	            \Else
+> 					\State tmp$[i+j] \gets b[j]$
+> 					\State $j++$
+> 				\EndIf
+>             \EndWhile
+>             \State $tmp \gets tmp \;\Vert\; a[i\,..\,|a|-1] \;\Vert\; b[j\,..\,|b|-1]$
+>             \Comment{Append to the end from the remaining array}
+>             \Return tmp
+>         \EndFunction
+> 	\end{algorithmic}
+> 	\end{algorithm}
+> ```
+
+> [!example]- Example of a Merge Sort run
+> ![[02-sorting.pdf#page=16&rect=26,25,327,215|02-sorting, p.13]]
+

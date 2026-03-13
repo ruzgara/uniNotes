@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "a32c4b92922fd61f",
+        "id": "dd18b0f5907b7950",
         "type": "tabs",
         "children": [
           {
-            "id": "92c355e3f366a373",
+            "id": "8d43c1ce23d22c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning.md",
+                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 2 - Supervised learning"
+              "title": "Week 3 - Computer Memory"
+            }
+          },
+          {
+            "id": "6683ec29cdcb2bbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal Projects/Digital ID/Digital ID System.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Digital ID System"
+            }
+          },
+          {
+            "id": "5d7d67475c18bacf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Week 3 - Abstract Data Types & Complexity"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 358.5
   },
   "right": {
     "id": "f50713493ba4d0ea",
@@ -95,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -105,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week 2 - Sorting"
+              "title": "Backlinks for Week 3 - Computer Memory"
             }
           },
           {
@@ -114,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Week 3 - Computer Memory"
             }
           },
           {
@@ -156,17 +185,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 2 - Sorting"
+              "title": "Outline of Week 3 - Computer Memory"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,88 +212,55 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "floating": {
-    "id": "dd6ce2f5f181adf6",
-    "type": "floating",
-    "children": [
-      {
-        "id": "9181c4b6206b2c16",
-        "type": "window",
-        "children": [
-          {
-            "id": "0122e4ffaad9addd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fac99c0d9e310e84",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.1_preview.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W2.1_preview"
-                }
-              },
-              {
-                "id": "cfec65d319d7bb75",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.2_preview.pdf"
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "W2.2_preview"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1,
-        "y": 35,
-        "width": 757,
-        "height": 887,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "92c355e3f366a373",
+  "active": "6683ec29cdcb2bbe",
   "lastOpenFiles": [
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
-    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.1_preview.pdf",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
-    "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning.md",
-    "Pasted image 20260129115219.png",
-    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2/W2.2_preview.pdf",
-    "Supervised Learning.md",
-    "Lectures/Untitled",
-    "Lectures/LC Artificial Intelligence 1 (34238, 34237)/Week 2",
-    "Year 1/33283 LC Integrated Design Project/Week 6 - Design.md",
-    "Lectures/LC Artificial Intelligence 1 (34238, 34237)",
-    "Year 1/28607 LC Introduction to Computing for Engineers/Week 1 - Introduction to C.md",
-    "Year 1/LC Artificial Intelligence 1 (34238, 34237)",
-    "Year 1/33283 LC Integrated Design Project/Week 2 - SDGs.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
+    "Personal Projects/Digital ID/Digital ID System.md",
+    "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
     "index.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 1/01-efficiency-and-complexity.pdf",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
+    "Personal Projects/Digital ID/Pasted image 20260313184313.png",
+    "Personal Projects/Digital ID/Pasted image 20260313184847.png",
+    "Personal Projects/Digital ID/Pasted image 20260313184651.png",
+    "Personal Projects/Digital ID/Pasted image 20260313184450.png",
+    "Pasted image 20260313184414.png",
+    "Personal Projects/Digital ID",
+    "Personal Projects",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/03-memory-and-linked-lists.pdf",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
+    "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning, Linear Regression and Gradient Descent.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/03a-stacks.pdf",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/04a-queues.pdf",
+    "Year 1/33283 LC Integrated Design Project/Week 2 - SDGs.md",
+    "Week 2&3 - Conduction & Convection.md",
+    "Week 4.md",
+    "Templates/Default.md",
+    "Templates",
+    "[[[[Week 2 - Sorting.md",
+    "headers.css",
+    "index copy.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/01-efficiency-and-complexity.pdf",
+    "Year 1/28607 LC Introduction to Computing for Engineers/Week 1 - Introduction to C.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/02-sorting.pdf",
+    "Year 1/28607 LC Introduction to Computing for Engineers/Cheat Sheet.md",
+    "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Resources/W2.1_preview.pdf",
+    "Nmap Scan.md",
+    "Untitled.png",
+    "Pasted image 20260129115219.png",
+    "Supervised Learning.md",
+    "Year 1/33283 LC Integrated Design Project/Week 6 - Design.md",
     "Year 1.md",
     "Index.md",
-    "Templates/Default.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/test.md",
-    "Lectures/LC Data Structures & Algorithms (30175, 30403)/Week 2/02-sorting.pdf",
     "{{pdfname}}.md",
     "2026-01-27.md",
-    "Year 1/28607 LC Introduction to Computing for Engineers/Cheat Sheet.md",
-    "Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
-    "'/Users/ruzgaraltiner/Documents/University/Lectures/LC.md",
-    "Welcome.md"
+    "Users/ruzgaraltiner/Documents/University/Lectures/LC.md"
   ]
 }

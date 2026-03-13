@@ -18,7 +18,7 @@ This module focuses on:
 - understanding the strengths & weaknesses in terms of time and space complexities
 
 Learning Objectives:
-- Design and implement DS&A`
+- Design and implement DS&A
 - Argue that algorithms are correct, derive time and space complexity measure for them
 - Explain and apply data structures in solving programming problems
 - Make informed choices between alternative data structures, algorithms and implementations, justifying choices on grounds such as computational efficiency
@@ -120,11 +120,11 @@ Usually, the **upper bound of the complexity** is used when denoting the time co
 > Therefore, this algorithm has time complexity of $O(\log n)$
 
 ### Types of complexities
-- Worst Case
+- **Worst Case**
 	- Worst complexity over all possible inputs/situations (complexity upper bound)
-- Average
+- **Average**
 	- Average complexity over all random choices
 	- For randomised algorithms, or algorithms where the likelihood of each of the inputs are known
-- Amortised
+- **Amortised**
 	- Average time taken over a sequence of consecutive operations
-	- used for measuring data structure performance
+	- Used for measuring data structure performance

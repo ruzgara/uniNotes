@@ -39,8 +39,28 @@ $$x^{(i)} = (x_1^{i},x_2^{i},x_3^{i},\dots, x_d^{i})$$
 **Input** = **Attribute(s)** = **Feature(s)** = **Independent variable(s)**
 **Output** = **Target** = **Response** = **Dependent variable**
 **Function** = **Hypothesis** = **Predictor**
-
 ## Classification
+
 ## Regression
+A function that captures the trend between input and output. It outputs a continuous value, and is used to predict target values for new inputs.
+
+> [!example]+ Example Regression Problem: Predicting weight from heigh
+> ![[W2.2_preview.pdf#page=4&rect=40,29,466,273|W2.2_preview, p.4]]
+> In this example, there is a clear trend between height and weight, therefore regression can be used to mathematically define this trend, allowing for predictions
+
+### Univariate Linear Regression
+There is one input attribute:
+$$y = f(x; w_0, w_1) = w_1x + w_0$$
+
+> [!tip] Parameters
+> In this example, $x$ is the dependent variable; $w_0$ and $w_1$ are the free parameters, meaning they are the values in $f(x)$ that can be adjusted during learning to adjust the behaviour of the function.
+> In the univariate linear case, $w_1$ would represent the gradient, and $w_0$ would represent the $y$-intercept of the regression line
+
+The goal of univariate linear regression is to find the **line of best fit**. 
+
+
+
+
 
 ## Overfitting and Underfitting
+	
