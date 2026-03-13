@@ -13,44 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
-                "mode": "source",
+                "file": "Personal Projects/Digital ID/Digital ID System.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3 - Computer Memory"
+              "title": "Digital ID System"
             }
           },
           {
-            "id": "6683ec29cdcb2bbe",
+            "id": "30e9e87a77a6c7c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
-                "mode": "source",
-                "source": true
+                "currentVersion": "1.12.4"
               },
-              "icon": "lucide-file",
-              "title": "Digital ID Mockup first draft"
-            }
-          },
-          {
-            "id": "5d7d67475c18bacf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Week 3 - Abstract Data Types & Complexity"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,13 +201,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3a75a9c6159a7b69",
+  "active": "8d43c1ce23d22c6f",
   "lastOpenFiles": [
-    "Personal Projects/Digital ID/Digital ID System.md",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
     "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
-    "index.md",
+    "Personal Projects/Digital ID/Digital ID System.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
+    "index.md",
     "Personal Projects/Digital ID/Pasted image 20260313184313.png",
     "Personal Projects/Digital ID/Pasted image 20260313184847.png",
     "Personal Projects/Digital ID/Pasted image 20260313184651.png",

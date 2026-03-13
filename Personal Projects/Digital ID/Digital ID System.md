@@ -4,6 +4,10 @@ updated: 2026-03-13T19:30:00
 tags:
   - projects/writeup
 ---
+
+> [!info] Github
+> The code for this demo can be found at my [Github](https://github.com/ruzgara/id-verification-demo)
+
 Digital identity systems have recently received significant attention as governments explore implementing national digital ID schemes. However, these proposals have often faced substantial public backlash, largely due to concerns about privacy, security, and potential misuse. Many citizens are uneasy about the idea of the government maintaining a centralised database containing sensitive identity information, and there is widespread scepticism about whether such systems could be protected against breaches or used to monitor individuals.
 
 On the other hand, the current system of uploading photos of physical IDs and selfies to unaccountable foreign verification companies who frequently fall victim to hacking, and many of whom have at best a dubious reputation, is arguably worse than a government-controlled digital ID.
@@ -26,7 +30,7 @@ In this model, identity credentials consist of a collection of attributes (for e
 
 ## BBS Signatures
 
-A practical implementation of this idea can be built using **BBS signatures**, named after Dan Boneh, Xavier Boyen, and Hovav Shacham.
+A practical implementation of this idea can be built using **BBS signatures**[^1], named after Dan Boneh, Xavier Boyen, and Hovav Shacham.
 
 In this scheme:
 - A **Signer** (the government) signs multiple messages corresponding to the different attributes contained in an identity credential. These messages might represent fields such as name, date of birth, gender, or nationality.
@@ -95,7 +99,7 @@ As long as the private key remains secure, the system maintains its integrity: o
                                                   +-----
                                              (5) ProofVerify
 ```
-
+(Adapted from [^1])
 # Demo
 
 To demonstrate that this system is not purely theoretical, I built a small prototype. The goal was to simulate a simple real-world use case: **age verification for a website**.
@@ -202,3 +206,5 @@ A privacy-preserving digital ID is technically feasible. While the simple demo p
 Compared to the current approach of uploading physical ID card photos and selfies to third-party companies, a privacy-preserving digital ID would offer far stronger protection for users. Centralised third-party storage exposes sensitive credentials to risks of hacking, acquisition, or financial failure, potentially resulting in large-scale leaks or misuse.
 
 A well-designed digital ID system which keeps the concerns of citizens as its top priority, such as the one outlined here, would make large-scale tracking by governments or corporations practically impossible, while remaining more robust than physical IDs. Additionally, creating fraudulent digital IDs would be infeasible, unlike physical IDs, which are frequently forged.
+
+[^1]: **BBS Signatures.** G. Looker, V. Kalos, and A. Whitehead. _Internet-Draft draft-irtf-cfrg-bbs-signatures-05_, Internet Engineering Task Force (IETF). 2023. Available at: [https://identity.foundation/bbs-signature/...](https://identity.foundation/bbs-signature/draft-irtf-cfrg-bbs-signatures.html)
