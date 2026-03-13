@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Projects/Digital ID/Digital ID System.md",
+                "file": "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Digital ID System"
+              "title": "Digital ID Mockup first draft"
             }
           },
           {
@@ -218,10 +218,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6683ec29cdcb2bbe",
+  "active": "3a75a9c6159a7b69",
   "lastOpenFiles": [
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
     "Personal Projects/Digital ID/Digital ID System.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
     "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
     "index.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
