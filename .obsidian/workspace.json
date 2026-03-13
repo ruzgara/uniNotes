@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Projects/Digital ID/Digital ID System.md",
-                "mode": "preview",
+                "file": "index.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital ID System"
+              "title": "index"
             }
           },
           {
@@ -203,11 +203,13 @@
   },
   "active": "8d43c1ce23d22c6f",
   "lastOpenFiles": [
-    "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
+    "index.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
+    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/04a-queues.pdf",
     "Personal Projects/Digital ID/Digital ID System.md",
+    "Personal Projects/Digital ID/Digital ID Mockup first draft.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Computer Memory.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 3 - Abstract Data Types & Complexity.md",
-    "index.md",
     "Personal Projects/Digital ID/Pasted image 20260313184313.png",
     "Personal Projects/Digital ID/Pasted image 20260313184847.png",
     "Personal Projects/Digital ID/Pasted image 20260313184651.png",
@@ -216,11 +218,9 @@
     "Personal Projects/Digital ID",
     "Personal Projects",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/03-memory-and-linked-lists.pdf",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 2 - Sorting.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Week 1 - Intro & Complexity.md",
     "Year 1/LC Artificial Intelligence 1 (34238, 34237)/Week 2 - Supervised learning, Linear Regression and Gradient Descent.md",
     "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/03a-stacks.pdf",
-    "Year 1/LC Data Structures & Algorithms (30175, 30403)/Resources/04a-queues.pdf",
     "Year 1/33283 LC Integrated Design Project/Week 2 - SDGs.md",
     "Week 2&3 - Conduction & Convection.md",
     "Week 4.md",
