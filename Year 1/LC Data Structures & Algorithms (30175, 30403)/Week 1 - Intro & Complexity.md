@@ -68,7 +68,7 @@ $$
 \text{there exists constants} \ C, n_0 >0 \ \text{such that for all} \ n \geq n_0,\ |f(n)| \leq |C \cdot g(n)|
 $$
 Formally, $O(g(n))$ is a *set of functions*. The set contains all functions that grow at a faster rate than $g$
-Informally, we may treat the expression $f(n) \in O(g(n))$ as a comparison of functions $f(n) \preccurlyeq g(n)$, meaning $f$ does not grow at a quicker rate than $g$
+Informally, we may treat the expression $f(n) \in O(g(n))$ as a comparison of functions $f(n) \preccurlyeq g(n)$, meaning $f$ does **not** grow at a quicker rate than $g$
 
 > [!warning] Abuse of notation
 > It is common to write $f(n) = O(g(n))$ instead of $f(n) \in O(g(n))$ which is an *abuse of notation*. 

@@ -1,16 +1,17 @@
 ---
 date: 2026-02-03
-updated: 2026-02-12T13:57:00
+updated: 2026-07-26T20:00:00
 tags:
   - lessons/lecture
 ---
 ![[03-memory-and-linked-lists.pdf]]
 
 # Abstract Data Types
+
 A **type** is defined by:
 - a set of possible **values**
 - a set of possible **operations** on those values
-An **abstract data type (ADT)** is a type whose internal representation is hidden to the user. Thus, users of an ADT may have no information about how the ADT is implemented, but depend only on the published information about how it behaves.
+An **Abstract Data Type (ADT)** is a type whose internal representation is hidden to the user. Thus, users of an ADT may have no information about how the ADT is implemented, but depend only on the published information about how it behaves.
 This means that the implementation of an ADT can be changed without having to change its usage.
 The operations on an ADT may also have mathematically specified constraints, for example on the time complexity of the operations.
 
@@ -33,7 +34,7 @@ $$\langle 2,5,17,1,8,7,23,1 \rangle$$
 Different representations of **Lists**: Depending on the operations required for an application, different types of List can be used. Some of them implement certain operations faster than others. These include:
 - [[#Arrays]]
 - [[#Dynamic Array]]
-- Linked Lists
+- [[Week 3 - Computer Memory & Linked Lists#Linked Lists|Linked Lists]]
 - Unrolled Linked Lists
 - ...
 
@@ -168,9 +169,13 @@ For filling the array:
 | -------- | ---------- |
 | Method 1 | $O(n^2)$   |
 | Method 2 | $O(n)$     |
+
 For inserting at the end:
 
-|          | Best Case | Worst Case | Amortised |
-| -------- | --------- | ---------- | --------- |
-| Method 1 | $O(1)$    | $O(n)$     | $O(n)$    |
-| Method 2 | $O(1)$    | $O(n)$     | $O(1)$    |
+|          | Best Case | Worst Case | Amortised  |
+| -------- | --------- | ---------- | ---------- |
+| Method 1 | $O(1)$    | $O(n)$     | $O(n)$     |
+| Method 2 | $O(1)$    | $O(n)$     | ==$O(1)$== |
+
+As such, Method 2 has better amortised time complexity, and the same best and worst case time complexity. This is because the worst case happens more often for method 2.
+
